@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+    <title>
+       Navigus
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="center">
+
+        <a href="home.html"> 
+            <img id="logo" src="navigus.png" alt="logo" />
+        </a>
+        
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <!-- here i have inserted course block -->
+                        <label>CourseName*</label><label class="validation-error hide" id="CourseNameValidationError">This field is required.</label>
+                        <input type="text" name="CourseName" id="CourseName"  placeholder="Please enter a course name here..">
+                    </div>
+                    
+                    <div  class="form-action-buttons">
+                        <input type="submit" id="black-btn" value="INSERT">
+                    </div>
+                </form>
+            </td>
+            <td  id="courseListtd">
+                <table class="list" id="courseList">
+                    <thead>
+                        <tr>
+                            <th>CourseName</th>
+                            
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Here i have inserted quiz module -->
+    
+    <script src="script.js"></script>
+</div>
+</body>
+
+</html>
+

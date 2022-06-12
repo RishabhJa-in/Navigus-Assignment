@@ -1,0 +1,118 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#center
+{
+    text-align: center;
+}
+
+#logo
+{
+  width: 25%;
+  margin-top: 0.5%;
+  margin-bottom: 8%;
+
+}
+
+body{
+    background:yellow;
+}
+
+
+
+#black-btn {
+    background-color: #0F1129;
+    color: #ffffff;
+    padding: 20px 40px;
+    border: 1px solid #111;
+     font-size: 20px;
+    padding:10px;
+    margin: 5px;
+    color:white;
+    background-color: #0F1129;
+  }
+
+  #black-btn:hover {
+    background-color: yellow;
+    color: black;
+    border: 1px solid #111;
+  }
+
+  table{
+    border-collapse: collapse;
+    margin: auto;
+
+
+}
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 1.5px solid #0F1129;
+    text-align: left;
+    padding: 8px;
+}
+
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 30%;
+    background-color: #0F1129;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+ 
+
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+label
+{
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+#courseListtd{
+  display: none;
+}
+
+#start_btn
+{
+    margin-left: 20%;
+    margin-right: 50%;
+}
